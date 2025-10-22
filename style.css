@@ -1,0 +1,441 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0) ;
+}
+
+.cont {
+    min-width: 100vw;
+    height: 699px;
+    
+    background-image: url(IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg);
+    inherits:inherit;
+    box-sizing: border-box;
+}
+.nav1 {
+    position: relative;
+    top: 9px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px ;
+    gap: 323px;
+}
+
+.hed {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    top: 210px;
+    gap: 13px;
+}
+
+.h1 {
+font-family: 'Poppins', sans-serif;
+font-size: 45px;
+font-weight: 600;
+}
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 420;
+
+}
+.h3 {
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-weight: 420;
+}
+
+.input{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px;
+    gap: 12px;
+    top: 210px;
+   
+
+}
+.user1 {
+            position: relative;
+            background-color: rgba(26, 26, 26, 0.736);
+            
+            
+            outline: none;
+            padding:14px 29px;
+            width: 239px;
+            border-radius: 4px;
+            font-family: 'Poppins', sans-serif;
+            z-index: 2;
+            border: 0.8px solid rgb(110, 110, 110);
+            outline: none;
+            color: white;
+        }
+
+.button2 {
+    background-color: rgb(174, 2, 2);
+    padding: 10px 38px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.bb1 {
+    background-color: rgb(174, 2, 2);
+    padding: 8px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 5px ;
+    color:white
+
+}
+.bb2 {
+    position: relative;
+    background-color: rgba(26, 26, 26, 0.736);
+    
+    
+    outline: none;
+    padding: 8px 14px;
+    
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    border: 0.8px solid rgb(110, 110, 110);
+    outline: none;
+    color: white;
+
+}
+
+.com2 {
+ 
+    min-width: 100vw;
+ height: 550px;
+    box-sizing: border-box;
+    border: 4px solid rgba(46, 46, 46, 0.844);
+   
+    
+}
+.leftcon1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+
+    
+
+}
+
+.com2 {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 33px;
+    
+    
+}
+.leftcon {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-weight: 300;
+}
+.boxflex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+    
+}
+
+.tv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+
+.vid1 {
+    position: relative;
+    display: flex;
+    bottom: 279px;
+    left: 61px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+    
+}
+
+.imgtv {
+    height: 400px;
+    position: relative;
+    top: 33px;
+    z-index: 7;
+    
+
+
+}
+
+.boxflex1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.tv1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+  
+    
+}
+.fixed{
+    z-index: 5;
+    position: relative;
+}
+
+.tv22 {
+    position: relative;
+    bottom: 153px;
+    right: 380px;
+    z-index: 10;
+}
+
+.vid2 {
+ 
+    display: flex;
+    bottom: 309px;
+    left: 86px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  
+    
+}
+
+.leftcon2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    position: relative;
+    bottom: 185px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: column;
+    gap: 19px;
+    padding: 15px;
+    margin: 10px;
+    top: 10px;
+    
+
+  
+}
+
+.com8 {
+    position: relative;
+    color: white;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    gap: 33px;
+    
+    
+}
+
+.com8 {
+ 
+    min-width: 100vw;
+    min-height: 80vh;
+    box-sizing: border-box;
+    border: 4px solid rgba(46, 46, 46, 0.844);
+
+}
+
+.leftcon00 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    position: relative;
+    bottom: 185px;
+   
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: column;
+    gap: 19px;
+    padding: 5px 170px;
+    margin: 10px;
+    top: 10px;
+    
+}
+
+.leftcon3 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 185px;
+     text-align: justify;
+    align-items: center;
+   
+    justify-content: space-around;
+    padding: 10px;
+    
+    gap: 19px;
+    padding: 15px;
+    margin: 10px;
+    top: 10px;
+}
+
+.open1 {
+    border: 2px solid black;
+    background-color: rgba(45, 45, 45, 0.918);
+    padding: 29px;
+    margin: 6px;
+   
+}
+
+.open1:hover {
+    background-color: rgba(67, 67, 67, 0.918);
+    transition-timing-function:ease-in-out;
+}
+
+.end1 {
+    font-size: 18px;
+}
+
+.holder1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    
+}
+
+.input19{
+    position: relative;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 10px;
+    gap: 12px;
+
+}
+
+.emmm2 {
+    position: relative;
+    top: -3px;
+    padding: 5px;
+}
+
+.finalpage {
+   padding: 70px;
+    min-width: 100vw;
+    min-height: 55vh;
+    box-sizing: border-box;
+    /* border: 4px solid rgba(46, 46, 46, 0.844);  uncoment for destop or phone  */
+    color: rgba(165, 165, 165, 0.94);
+    justify-content: center;
+}
+
+.box5 {
+
+    padding: 3px;
+    margin: 10px;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
+
+    
+}
+
+.open7 {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px 0px;
+    
+    font-size: 15px;
+}
+.open8 {
+    display: grid;
+    font-size: 14px;
+   
+    grid-template-rows: 40px 40px 40px 40px ;
+    grid-template-columns:220px 220px 220px 220px ;
+}
+
+.open9 {
+    font-size: 13px;
+    display: flex;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.elif {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:underline;
+    
+
+}
+
+.class10 {
+    display: flex;
+    padding: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+
+.class12 {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 7px 0px;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* media screen resposive  */
+
+@media only screen and (max-width: 399px) {
+    
+}
